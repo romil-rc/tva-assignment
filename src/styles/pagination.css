@@ -1,0 +1,53 @@
+.text-start {
+  margin-bottom: 15px;
+}
+.search-input{
+  width: 400px;
+  padding: 4px;
+  height: 40px;
+}
+.search-icon{
+  position: absolute;
+  height: 40px;
+  margin-left: 2px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.pagination{
+  justify-content: flex-end;
+  margin-right: 22px;
+}
+
+li{
+  text-align: center;
+  border: 1px solid gainsboro;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 2px;
+  line-height: 2.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 600;
+}
+li.active {
+  border-color: blue;
+  color: blue;
+}
+.table{
+  text-align: left;
+}
+.buttons{
+  text-align: center;
+  border: 1px solid gainsboro;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 2px;
+  line-height: 2.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 600;
+}
